@@ -3,6 +3,7 @@ import './styles/Projects.css'
 import SUM from './images/sum.png'
 import Packify from './images/Packify-cover.png'
 import Portrait from './images/portrait.jpg'
+import SnakeGame from './images/snakegame-cover.mp4'
 import GrabnGo from './images/grabngo-cover.jpg'
 import Hungmen from './images/hungmen-cover.jpg'
 import Loop1 from './images/ul-cover.mp4'
@@ -14,11 +15,11 @@ function Projects() {
         <div class="section column" id="projects-section">
             <span className='section-title'>PROJECTS</span>
 
-            {/* Code Subsection */}
+            {/* Website Subsection */}
             <div className='subsection'>
                 <span className='subsection-title'>Websites</span>
 
-                {/* Coding Projects */}
+                {/* Websites */}
                 <div className='projects-container'>
                     
                     <div className='project-card card'>
@@ -63,7 +64,7 @@ function Projects() {
                     <div className='project-card card'>
                         <img src={ Portrait } className='project-image image' alt='project'/>
                         <div className='project-details'>
-                            <a className='project-title' href="https://anarotgonbaatar.github.io" target="_blank" rel="noopener noreferrer">
+                            <a className='project-title' href="https://anarotgonbaatar.github.io/anar-portfolio/" target="_blank" rel="noopener noreferrer">
                                 Portfolio Website
                             </a>
                             <p className='project-description'>
@@ -75,6 +76,37 @@ function Projects() {
                                 <span className='project-skill'>CSS</span>
                                 <span className='project-skill'>JavaScript</span>
                                 <span className='project-skill'>VSCode</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            {/* Game Subsection */}
+            <div className='subsection'>
+                <span className='subsection-title'>Games</span>
+
+                {/* Games */}
+                <div className='projects-container'>
+                    
+                    <div className='project-card card'>
+                        <video className='project-image image' autoPlay loop muted playsInline>
+                            <source src={ SnakeGame } type='video/mp4'/>
+                            Your browser does not support the video tag.
+                        </video>
+                        <div className='project-details'>
+                            <a className='project-title' href="https://github.com/anarotgonbaatar/AI-Snake-Game" target="_blank" rel="noopener noreferrer">
+                                AI Snake Game
+                            </a>
+                            <p className='project-description'>
+                                A python implementation of the classic Snake game with 4 game modes, including AI controlled snakes.
+                            </p>
+                            <div className='project-skills-container'>
+                                <span className='project-skill'>Unreal Engine</span>
+                                <span className='project-skill'>Blender</span>
+                                <span className='project-skill'>UE Blueprints</span>
                             </div>
                         </div>
                     </div>

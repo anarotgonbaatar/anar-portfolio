@@ -20,8 +20,8 @@
 .subsection:hover {
     border-top: 2px solid var(--accent-color);
     border-bottom: 2px solid var(--accent-color);
-    background-color: var(--border);
-    box-shadow: 0 0 0.5rem black;
+    /* background-color: var(--border); */
+    box-shadow: 0 0 1rem black;
 }
 
 .subsection-title {
