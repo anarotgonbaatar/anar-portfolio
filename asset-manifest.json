@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/anar-portfolio/static/css/main.9e9841d0.css",
-    "main.js": "/anar-portfolio/static/js/main.1674567a.js",
+    "main.css": "/anar-portfolio/static/css/main.cf8d549b.css",
+    "main.js": "/anar-portfolio/static/js/main.869e8ca7.js",
     "static/media/ul2-cover.mp4": "/anar-portfolio/static/media/ul2-cover.ed8186b6954e2d8dff94.mp4",
     "static/media/ul3-cover.mp4": "/anar-portfolio/static/media/ul3-cover.81d5c3511920012078ed.mp4",
     "static/media/ul-cover.mp4": "/anar-portfolio/static/media/ul-cover.76fa0c8808ca9d5b4d1d.mp4",
@@ -12,11 +12,11 @@
     "static/media/sum.png": "/anar-portfolio/static/media/sum.aa73172529515dff25e8.png",
     "static/media/hungmen-cover.jpg": "/anar-portfolio/static/media/hungmen-cover.a2e10ade97e7d03a5982.jpg",
     "index.html": "/anar-portfolio/index.html",
-    "main.9e9841d0.css.map": "/anar-portfolio/static/css/main.9e9841d0.css.map",
-    "main.1674567a.js.map": "/anar-portfolio/static/js/main.1674567a.js.map"
+    "main.cf8d549b.css.map": "/anar-portfolio/static/css/main.cf8d549b.css.map",
+    "main.869e8ca7.js.map": "/anar-portfolio/static/js/main.869e8ca7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e9841d0.css",
-    "static/js/main.1674567a.js"
+    "static/css/main.cf8d549b.css",
+    "static/js/main.869e8ca7.js"
   ]
 }
