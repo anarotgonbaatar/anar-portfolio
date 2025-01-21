@@ -37,8 +37,8 @@ function Navbar() {
     return (
         <div className='' id="navbar">
             <button className='btn nav-btn' onClick={() => scrollToSection( 'home-section' )} type='button'><FaHome/></button>
-            <button class="btn nav-btn" onClick={() => scrollToSection('skills-section')} type="button">SKILLS</button>
             <button class="btn nav-btn" onClick={() => scrollToSection('projects-section')} type="button">PROJECTS</button>
+            <button class="btn nav-btn" onClick={() => scrollToSection('skills-section')} type="button">SKILLS</button>
             <button class="btn nav-btn" onClick={() => scrollToSection('exp-section')} type="button">EXPERIENCE</button>
             <button class="btn nav-btn" onClick={() => scrollToSection('contact-section')} type="button"><FaPhone/></button>
             <button class="nav-btn btn" id="theme-btn" type="button" onClick={ toggleTheme }>
