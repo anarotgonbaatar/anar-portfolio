@@ -4,11 +4,27 @@
 
 #home-card {
     width: 100%;
-    max-width: 30rem;
+    max-width: 40rem;
     height: auto;
+
+    flex-direction: row;
 }
 
 #portrait {
-    width: 100%;
+    width: 40%;
     height: auto;
+}
+
+#home-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#name {
+    margin-bottom: 0;
+}
+
+#home-icon-container {
+    margin-top: 1rem;
 }

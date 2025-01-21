@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './styles/Navbar.css'
-import { FaHome } from 'react-icons/fa'
+import { FaHome, FaPhone } from 'react-icons/fa'
 
 function Navbar() {
     // Scroll to section with an offset:
@@ -40,7 +40,7 @@ function Navbar() {
             <button class="btn nav-btn" onClick={() => scrollToSection('skills-section')} type="button">SKILLS</button>
             <button class="btn nav-btn" onClick={() => scrollToSection('projects-section')} type="button">PROJECTS</button>
             <button class="btn nav-btn" onClick={() => scrollToSection('exp-section')} type="button">EXPERIENCE</button>
-            <button class="btn nav-btn" onClick={() => scrollToSection('contact-section')} type="button">CONTACT</button>
+            <button class="btn nav-btn" onClick={() => scrollToSection('contact-section')} type="button"><FaPhone/></button>
             <button class="nav-btn btn" id="theme-btn" type="button" onClick={ toggleTheme }>
                 { theme === 'light' ? '🌙' : '☀️' }
             </button>

@@ -4,8 +4,6 @@
         box-sizing: border-box !important;
     }
 
-    
-
     /* Navbar */
     #navbar {
         display: flex;
@@ -14,7 +12,12 @@
     }
 
     /* Home Section */
-
+    #home-section #home-card {
+        flex-direction: column;
+    }
+    #home-section #portrait {
+        width: 100%;
+    }
 
     /* Skills Section */
     #skills-section .skills-container {

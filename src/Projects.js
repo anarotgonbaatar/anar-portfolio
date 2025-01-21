@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles/Projects.css'
+import SUM from './images/sum.png'
 import Packify from './images/Packify-cover.png'
 import Portrait from './images/portrait.jpg'
 import GrabnGo from './images/grabngo-cover.jpg'
@@ -15,12 +16,31 @@ function Projects() {
 
             {/* Code Subsection */}
             <div className='subsection'>
-                <span className='subsection-title'>Coding Projects</span>
+                <span className='subsection-title'>Websites</span>
 
                 {/* Coding Projects */}
                 <div className='projects-container'>
                     
-                    <div className='project-card card column'>
+                    <div className='project-card card'>
+                        <img src={ SUM } className='project-image image' alt='SUM Website'/>
+                        <div className='project-details'>
+                            <a className='project-title' href="https://www.rushsum.com" target="_blank" rel="noopener noreferrer">
+                                Sigma Upsilon Mu Website
+                            </a>
+                            <p className='project-description'>
+                                Website for a co-ed entrepreneurship fraternity, Sigma Upsilon Mu.
+                            </p>
+                            <div className='project-skills-container'>
+                                <span className='project-skill'>React</span>
+                                <span className='project-skill'>HTML</span>
+                                <span className='project-skill'>CSS</span>
+                                <span className='project-skill'>Google Apps Script</span>
+                                <span className='project-skill'>Google Sheets</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='project-card card'>
                         <img src={ Packify } className='project-image image' alt='project'/>
                         <div className='project-details'>
                             <a className='project-title' href="https://github.com/anarotgonbaatar/Packify" target="_blank" rel="noopener noreferrer">
@@ -40,7 +60,7 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className='project-card card column'>
+                    <div className='project-card card'>
                         <img src={ Portrait } className='project-image image' alt='project'/>
                         <div className='project-details'>
                             <a className='project-title' href="https://anarotgonbaatar.github.io" target="_blank" rel="noopener noreferrer">
@@ -59,7 +79,7 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className='project-card card column'>
+                    <div className='project-card card'>
                         <img src={ GrabnGo } className='project-image image' alt='project'/>
                         <div className='project-details'>
                             <a className='project-title' href="https://anarotgo.itch.io/grab-n-go" target="_blank" rel="noopener noreferrer">
@@ -76,7 +96,7 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className='project-card card column'>
+                    <div className='project-card card'>
                         <img src={ Hungmen } className='project-image image' alt='project'/>
                         <div className='project-details'>
                             <a className='project-title' href="https://anarotgo.itch.io/hungmen" target="_blank" rel="noopener noreferrer">
@@ -99,12 +119,12 @@ function Projects() {
 
             {/* Art Subsection */}
             <div className='subsection'>
-                <span className='subsection-title'>Art Projects</span>
+                <span className='subsection-title'>Art</span>
 
                 {/* Art Projects */}
                 <div className='projects-container'>
                     
-                    <div className='project-card card column'>
+                    <div className='project-card card'>
                         <video className='project-image image' autoPlay loop muted playsInline>
                             <source src={ Loop1 } type='video/mp4'/>
                             Your browser does not support the video tag.
@@ -125,7 +145,7 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className='project-card card column'>
+                    <div className='project-card card'>
                         <video className='project-image image' autoPlay loop muted playsInline>
                             <source src={ Loop2 } type='video/mp4'/>
                             Your browser does not support the video tag.
@@ -146,7 +166,7 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className='project-card card column'>
+                    <div className='project-card card'>
                         <video className='project-image image' autoPlay loop muted playsInline>
                             <source src={ Loop3 } type='video/mp4'/>
                             Your browser does not support the video tag.

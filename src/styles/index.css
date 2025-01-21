@@ -6,6 +6,7 @@
     --accent-color: rgb(252, 176, 77);
     --text-color: rgb(25, 25, 25);
     --shadow-color: rgb(252, 176, 77);
+    --border: rgba(0, 0, 0, 0.1);
     --trans: all 0.3s ease-in-out;
 }
 /* Dark theme colors */
@@ -15,6 +16,7 @@
     --passive-color: rgb(235, 235, 235);
     --accent-color: rgb(204, 85, 0);
     --shadow-color: rgb(204, 85, 0);
+    --border: rgba(255, 255, 255, 0.2);
     --text-color: rgb(235, 235, 235);
 }
 
@@ -38,7 +40,6 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    
 }
 
 .section {
@@ -73,19 +74,24 @@ body {
 
 .card {
     display: flex;
-    gap: 1rem;
     justify-content: baseline;
     align-items: center;
     text-align: center;
-    border: 1px solid var(--text-color);
-    border-radius: 2rem;
+    gap: 1rem;
     padding: 1rem;
+
+    border: 3px solid var(--border);
+    border-radius: 2rem;
+
+    background-color: var(--border);
+    -webkit-backdrop-filter: blur(3rem);
+    backdrop-filter: blur(3rem);
     transition: var(--trans);
 }
 .card:hover {
-    border: 1px solid var(--accent-color);
-    background-color: var(--accent-color);
-    box-shadow: 0 0 0.5rem var(--shadow-color);
+    border: 3px solid var(--accent-color);
+    background-color: var(--active-color);
+    /* box-shadow: 0 0 0.5rem var(--shadow-color); */
     transform: scale(1.01);
 }
 .card-title {
@@ -108,8 +114,11 @@ body {
 }
 
 .image {
-    border: 1px solid var(--text-color);
+    border: 3px solid var(--border);
     border-radius: 1rem;
+}
+.image:hover{
+    box-shadow: 0 0 0.5rem black;
 }
 
 .icon {
