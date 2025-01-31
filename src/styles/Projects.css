@@ -18,10 +18,10 @@
     transition: var(--trans);
 }
 .subsection:hover {
-    border-top: 2px solid var(--accent-color);
-    border-bottom: 2px solid var(--accent-color);
+    border-top: 2px solid var(--accent);
+    border-bottom: 2px solid var(--accent);
     /* background-color: var(--border); */
-    box-shadow: 0 0 1rem black;
+    box-shadow: 0 0 1rem var(--border);
 }
 
 .subsection-title {
@@ -50,7 +50,7 @@
 .project-title {
     font-size: larger;
     font-weight: 600;
-    color: var(--accent-color);
+    color: var(--accent);
 }
 
 .project-details {
@@ -71,6 +71,6 @@
     padding: 0.25rem 0.5rem;
 }
 .project-skill:hover {
-    border: 1px solid var(--accent-color);
-    box-shadow: 0 0 0.5rem black;
+    border: 1px solid var(--accent);
+    box-shadow: 0 0 0.5rem var(--border);
 }

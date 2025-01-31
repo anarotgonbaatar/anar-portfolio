@@ -29,14 +29,16 @@ function Projects() {
                                 Sigma Upsilon Mu Website
                             </a>
                             <p className='project-description'>
-                                Website for a co-ed entrepreneurship fraternity, Sigma Upsilon Mu.
+                                Website for Sigma Upsilon Mu, with an OpenAI powered chatbot.
                             </p>
                             <div className='project-skills-container'>
+								<span className='project-skill'>OpenAI API</span>
                                 <span className='project-skill'>React</span>
                                 <span className='project-skill'>HTML</span>
                                 <span className='project-skill'>CSS</span>
-                                <span className='project-skill'>Google Apps Script</span>
-                                <span className='project-skill'>Google Sheets</span>
+								<span className='project-skill'>Node.js</span>
+								<span className='project-skill'>Netlify</span>
+                                <span className='project-skill'>Google API</span>
                             </div>
                         </div>
                     </div>
@@ -52,11 +54,9 @@ function Projects() {
                             </p>
                             <div className='project-skills-container'>
                                 <span className='project-skill'>React</span>
-                                <span className='project-skill'>Axios</span>
                                 <span className='project-skill'>CSS</span>
-                                <span className='project-skill'>Node.js</span>
-                                <span className='project-skill'>Express.js</span>
-                                <span className='project-skill'>MongoDB</span>
+                                <span className='project-skill'>JavaScript</span>
+                                <span className='project-skill'>JSON</span>
                             </div>
                         </div>
                     </div>

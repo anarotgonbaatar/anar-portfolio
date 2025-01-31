@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import './styles/mobile.css';
+// Components
 import Navbar from './Navbar.js';
 import Home from './Home.js';
 import Skills from './Skills.js';
@@ -14,13 +15,13 @@ import CustomCursor from './CustomCursor.js'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Navbar />
-        <Home />
-        <Projects />
-        <Skills />
-        <Experience />
-        <Contact />
-        <Footer />
-        <CustomCursor />
+		<Navbar />
+		<Home />
+		<Projects />
+		<Skills />
+		<Experience />
+		<Contact />
+		<Footer />
+		<CustomCursor />
     </React.StrictMode>
 );
